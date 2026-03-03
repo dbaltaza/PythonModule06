@@ -7,4 +7,3 @@ def lead_to_gold() -> str:
 
 def stone_to_gem() -> str:
     return f"Stone transmuted to gem using {create_earth()}"
-

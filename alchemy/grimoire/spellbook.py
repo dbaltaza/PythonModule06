@@ -6,4 +6,3 @@ def record_spell(spell_name: str, ingredients: str) -> str:
     if "VALID" in validation_result and "INVALID" not in validation_result:
         return f"Spell recorded: {spell_name} ({validation_result})"
     return f"Spell rejected: {spell_name} ({validation_result})"
-

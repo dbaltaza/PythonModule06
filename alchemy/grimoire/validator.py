@@ -4,4 +4,3 @@ def validate_ingredients(ingredients: str) -> str:
         if element in ingredients:
             return f"{ingredients} - VALID"
     return f"{ingredients} - INVALID"
-
