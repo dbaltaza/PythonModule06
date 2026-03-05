@@ -1,8 +1,8 @@
-import alchemy.elements  # noqa: E402
-from alchemy.elements import create_water  # noqa: E402
-from alchemy.potions import healing_potion as heal  # noqa: E402
-from alchemy.elements import create_earth, create_fire  # noqa: E402
-from alchemy.potions import strength_potion  # noqa: E402
+import alchemy.elements
+from alchemy.elements import create_water
+from alchemy.potions import healing_potion as heal
+from alchemy.elements import create_earth, create_fire
+from alchemy.potions import strength_potion
 
 print("=== Import Transmutation Mastery ===\n")
 
